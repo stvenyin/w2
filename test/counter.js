@@ -27,4 +27,9 @@ describe('Counter合约测试用例', () => {
     expect(increment).to.be.equal('1') //断言结果为801
     console.log(increment);
   })
+
+  it('Testing sayhello', async () => {
+    const sayhello = await this.Counter.sayhello();
+    expect(sayhello).to.be.equal('helloworld') //断言结果为801
+  })
 })
