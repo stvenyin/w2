@@ -1,3 +1,4 @@
+切换到淘宝镜像源
 $ npm install @openzeppelin/contracts
 $ npm install @openzeppelin/hardhat-upgrades
 $ npm install --save-dev hardhat
