@@ -30,6 +30,6 @@ describe('Counter合约测试用例', () => {
 
   it('Testing sayhello', async () => {
     const sayhello = await this.Counter.sayhello();
-    expect(sayhello).to.be.equal('helloworld') //断言结果为801
+    expect(sayhello).to.be.equal('helloworld') //判断结果为"helloworld"
   })
 })
